@@ -19,7 +19,7 @@ class Controllers {
   static async login(req, res, next) {
     try {
       console.log(req.body);
-      const user = await user.findOne({
+      const user = await User.findOne({
         where: {
           username: req.body.username,
         },
@@ -32,6 +32,7 @@ class Controllers {
                 email: user.email,
               }
             : null;
+            console.log(data)
         if (data) {
           res.send(data);
         } else {
