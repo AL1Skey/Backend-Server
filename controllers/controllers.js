@@ -1,9 +1,14 @@
 const { User } = require("../models/index.js");
+const {hashPassword,comparePassword}=require("../helpers/bcrypt.js")
 
 class Controllers {
   static async register(req, res, next) {
     try {
-      const user = await User.create(req.body);
+        const data = {
+            ...req.body,
+            password:hashPassword(req.body.password)
+        }
+      const user = await User.create(data);
       res.send({
         message: {
           username: user.username,
@@ -26,13 +31,12 @@ class Controllers {
       });
       if (user) {
         const data =
-          user.password === req.body.password
+          comparePassword(req.body.password,user.password)
             ? {
                 username: user.username,
                 email: user.email,
               }
             : null;
-            console.log(data)
         if (data) {
           res.send(data);
         } else {
