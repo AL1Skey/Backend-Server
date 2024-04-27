@@ -1,5 +1,6 @@
 const { User } = require("../models/index.js");
 const {hashPassword,comparePassword}=require("../helpers/bcrypt.js")
+const {signToken} = require("../helpers/jwt.js")
 
 class Controllers {
   static async register(req, res, next) {
@@ -38,7 +39,7 @@ class Controllers {
               }
             : null;
         if (data) {
-          res.send(data);
+          res.send({...data,access_token:signToken({id:user.id})});
         } else {
           res.status(401).send({
             message: "username or password is wrong",
