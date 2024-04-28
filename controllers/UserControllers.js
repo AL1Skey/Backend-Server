@@ -2,7 +2,7 @@ const { User } = require("../models/index.js");
 const {hashPassword,comparePassword}=require("../helpers/bcrypt.js")
 const {signToken} = require("../helpers/jwt.js")
 
-class Controllers {
+class UserControllers {
   static async register(req, res, next) {
     try {
         const data = {
@@ -52,4 +52,4 @@ class Controllers {
   }
 }
 
-module.exports = Controllers;
+module.exports = UserControllers;
