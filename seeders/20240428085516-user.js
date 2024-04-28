@@ -1,5 +1,6 @@
 'use strict';
-const user = require('../dataset/user.json').map((item)=>({...item,createdAt:new Date(),updatedAt:new Date()}))
+const {hashPassword} = require('../helpers/bcrypt')
+const user = require('../dataset/user.json').map((item)=>({...item,password:hashPassword(item.password),createdAt:new Date(),updatedAt:new Date()}))
 
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {

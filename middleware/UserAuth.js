@@ -53,16 +53,8 @@ module.exports = class UserAuth {
     }
   }
 
-  /**
-   * Role Verification middleware
-   * This middleware is responsible for verifying the user role
-   * based on the role provided in the JWT Token.
-   *
-   * @param {Request} req - Express request object
-   * @param {Response} res - Express response object
-   * @param {NextFunction} next - Next middleware function
-   */
-  static async RoleAuth(req, res, next) {
+  
+  static async AdminAuth(req, res, next) {
     try {
       // If user is admin
       if (req.user.role === "admin") next(); // If user is not admin

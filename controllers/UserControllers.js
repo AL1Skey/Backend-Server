@@ -15,13 +15,17 @@ class UserControllers {
       // Check if request body contains required fields
       if (!req.body.username || !req.body.email || !req.body.password) {
         res
-          .status(401)
-          .send({ message: "Username, Email and Password can't be empty" });
+          .status(400)
+          .send({
+            message: `${req.body.username ? "" : "Username "}${
+              req.body.email ? "" : "Email "
+            }${req.body.password ? "" : "Password "}can't be empty`,
+          });
       }
 
       // Check if request email is valid email format
       if (!validator.isEmail(req.body.email))
-        res.status(401).send({ message: "Invalid email format" });
+        res.status(400).send({ message: "Invalid email format" });
 
       // Check if user already exists
       if (await User.findOne({ where: { username: req.body.username } })) {
@@ -45,12 +49,8 @@ class UserControllers {
       // Create new user in database
       const user = await User.create(data);
       // Send success response
-      res.send({
-        message: {
-          // Send user details
-          username: user.username,
-          email: user.email,
-        },
+      res.status(201).send({
+        message: "User created",
       });
     } catch (error) {
       // Log error
@@ -72,8 +72,12 @@ class UserControllers {
     try {
       // Check if request body contains required fields
       if (!req.body.email || !req.body.password) {
-        res.status(401).send({ message: "Email and Password can't be empty" });
+        res.status(400).send({ message: `${req.body.email?"":"Email "}${req.body.password?"":"Password "}can't be empty` });
       }
+
+      // Check if request email is valid email format
+      if (!validator.isEmail(req.body.email))
+        res.status(400).send({ message: "Invalid email format" });
 
       // Get user from database
       const user = await User.findOne({
@@ -91,18 +95,20 @@ class UserControllers {
             }
           : null;
         if (data) {
-          
           // Generate JWT token and send it to client
           res.send({
-            ...data,
             access_token: signToken({ id: user.id }),
           });
         } else {
           // Send error message if password is wrong
-          res.status(401).send({
-            message: "username or password is wrong",
+          res.status(404).send({
+            message: "Email or Password is either wrong or not existed",
           });
         }
+      } else {
+        res.status(404).send({
+          message: "Email or Password is either wrong or not existed",
+        });
       }
     } catch (error) {
       // Log error and send error response
