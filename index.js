@@ -4,6 +4,7 @@ if(process.env.NODE_ENV !== 'production'){
 
 const express = require('express')
 const user = require('./router/user')
+const product = require('./router/product')
 const app = express()
 const cors = require('cors')
 
@@ -21,6 +22,7 @@ app.get('/test',(req,res)=>{
 
 // Main Router
 app.use('/',user)
+app.use('/',product)
 
 app.listen(port,()=>{
     console.log('Server is running on port ',port)

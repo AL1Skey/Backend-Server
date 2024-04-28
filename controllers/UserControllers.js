@@ -1,14 +1,14 @@
 const { User } = require("../models/index.js");
-const {hashPassword,comparePassword}=require("../helpers/bcrypt.js")
-const {signToken} = require("../helpers/jwt.js")
+const { hashPassword, comparePassword } = require("../helpers/bcrypt.js");
+const { signToken } = require("../helpers/jwt.js");
 
 class UserControllers {
   static async register(req, res) {
     try {
-        const data = {
-            ...req.body,
-            password:hashPassword(req.body.password)
-        }
+      const data = {
+        ...req.body,
+        password: hashPassword(req.body.password),
+      };
       const user = await User.create(data);
       res.send({
         message: {
@@ -31,15 +31,14 @@ class UserControllers {
         },
       });
       if (user) {
-        const data =
-          comparePassword(req.body.password,user.password)
-            ? {
-                username: user.username,
-                email: user.email,
-              }
-            : null;
+        const data = comparePassword(req.body.password, user.password)
+          ? {
+              username: user.username,
+              email: user.email,
+            }
+          : null;
         if (data) {
-          res.send({...data,access_token:signToken({id:user.id})});
+          res.send({ ...data, access_token: signToken({ id: user.id }) });
         } else {
           res.status(401).send({
             message: "username or password is wrong",
@@ -51,13 +50,15 @@ class UserControllers {
     }
   }
 
-  static async logout(req,res){
+  static async logout(req, res) {
     try {
-      if(req.user) delete req.user
-      else res.send({message:"User Already Logged Out"})
-      res.send({message:"Logout Success"})
+      if (req.user) delete req.user;
+      
+      else res.send({ message: "User Already Logged Out" });
+
+      res.send({ message: "Logout Success" });
     } catch (error) {
-     res.status(500).send(error) 
+      res.status(500).send(error);
     }
   }
 }
