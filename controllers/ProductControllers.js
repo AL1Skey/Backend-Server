@@ -2,16 +2,16 @@ const {Product}= require('../models/index');
 
 class ProductControllers{
     // Read Controllers Section
-    static async getProducts(req,res){
+    static async getProducts(req,res,next){
         try{
             const products = await Product.findAll();
             res.send(products);
         }
         catch(error){
-            res.status(500).send(error);
+           next(error);
         }
     }
-    static async getProductsByBrand(req,res){
+    static async getProductsByBrand(req,res,next){
         try {
             const {brand} = req.body
             const products = await Product.findAll({
@@ -22,31 +22,31 @@ class ProductControllers{
             if(products) res.send(products)
             else res.status(404).send("Product not found")
         } catch (error) {
-            res.status(500).send(error)
+           next(error)
         }
     }
-    static async getProductsDetails(req,res){
+    static async getProductsDetails(req,res,next){
         try {
             const {id} = req.params
             const product = await Product.findByPk(id);
             res.send(product);
         } catch (error) {
-            res.status(500).send(error);
+           next(error);
         }
     }
 
     // Create Controllers Section
-    static async createProduct(req,res){
+    static async createProduct(req,res,next){
         try {
             const data = {...req.body,createdAt:new Date(),updatedAt:new Date()}
             const product = await Product.create(data);
         } catch (error) {
-            res.status(500).send(error);
+           next(error);
         }
     }
 
     // Update Controllers Section
-    static async updateProduct(req,res){
+    static async updateProduct(req,res,next){
         try {
             const {id} = req.params
             const data = {...req.body,updatedAt:new Date()}
@@ -63,12 +63,12 @@ class ProductControllers{
             }
 
         } catch (error) {
-            res.status(500).send(error)
+           next(error)
         }
     }
 
     // Delete Product Section
-    static async deleteProduct(req,res){
+    static async deleteProduct(req,res,next){
         try {
             const {id} = req.params
             const product = await Product.destroy({
@@ -82,7 +82,7 @@ class ProductControllers{
             else{
                 res.status(404).send("Product not found")}
         } catch (error) {
-            res.status(500).send(error)
+           next(error)
         }
     }
 }

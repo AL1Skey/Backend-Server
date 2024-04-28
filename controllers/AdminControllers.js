@@ -9,13 +9,13 @@ class AdminControllers{
      * @param {Request} req - Express request object
      * @param {Response} res - Express response object
      */
-    static async getUsers(req,res){
+    static async getUsers(req,res,next){
         try {
             const users = await User.findAll(); // Find all users in database
             if(users) res.send(users); // Send users as response if found
             else res.status(404).send({message:"No users found"}); // Send not found status and message if users not found
         } catch (error) {
-            res.status(500).send(error) // Log error and send error response
+            next(error) // Log error and send error response
         }
     }
 
@@ -27,11 +27,11 @@ class AdminControllers{
      * @param {Request} req - Express request object
      * @param {Response} res - Express response object
      */
-    static async createUsers(req,res){
+    static async createUsers(req,res,next){
         try {
             // Check if request body contains required fields
-            if(!req.body.username || !req.body.email || !req.body.password){
-                res.status(401).send({message:"Username, Email and Password can't be empty"});
+            if(!req.body.username || !req.body.email || !req.body.password || !req.body.role) {
+                res.status(401).send({message:"Username, Email, Password, and Role can't be empty"});
             }
 
             const data = {
@@ -44,7 +44,7 @@ class AdminControllers{
             const user = await User.create(data); // Create new user in database
             res.send(user); // Send user as response
         } catch (error) {
-            res.status(500).send(error); // Log error and send error response
+            next(error); // Log error and send error response
         }
     }
 
@@ -57,7 +57,7 @@ class AdminControllers{
      * @param {Request} req - Express request object
      * @param {Response} res - Express response object
      */
-    static async updateUser(req,res){
+    static async updateUser(req,res,next){
         try {
             const {id} = req.params // Get user id from request params
             const data = {...req.body,updatedAt:new Date()} // Create new user data
@@ -71,7 +71,7 @@ class AdminControllers{
             else res.status(404).send({message:"User not found"}) // Send not found status and message if user not found
 
         } catch (error) {
-            res.status(500).send(error) // Log error and send error response
+            next(error) // Log error and send error response
         }
     }
 
@@ -84,7 +84,7 @@ class AdminControllers{
      * @param {Request} req - Express request object
      * @param {Response} res - Express response object
      */
-    static async deleteUser(req,res){
+    static async deleteUser(req,res,next){
         try {
             const {id} = req.params // Get user id from request params
             const user = await User.destroy({ // Delete user from database
@@ -97,7 +97,7 @@ class AdminControllers{
             else res.status(404).send({message:"User not found"}) // Send not found status and message if user not found
             
         } catch (error) {
-            res.status(500).send(error) // Log error and send error response
+            next(error) // Log error and send error response
         }
     }
 }

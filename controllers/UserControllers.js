@@ -1,19 +1,34 @@
 const { User } = require("../models/index.js");
 const { hashPassword, comparePassword } = require("../helpers/bcrypt.js");
 const { signToken } = require("../helpers/jwt.js");
+const validator = require("validator");
 
 class UserControllers {
   /**
    * Register user endpoint
-   * 
+   *
    * @param {Request} req - Request object
    * @param {Response} res - Response object
    */
-  static async register(req, res) {
+  static async register(req, res, next) {
     try {
       // Check if request body contains required fields
-      if(!req.body.username || !req.body.email || !req.body.password){
-        res.status(401).send({message:"Username, Email and Password can't be empty"})
+      if (!req.body.username || !req.body.email || !req.body.password) {
+        res
+          .status(401)
+          .send({ message: "Username, Email and Password can't be empty" });
+      }
+
+      // Check if request email is valid email format
+      if (!validator.isEmail(req.body.email))
+        res.status(401).send({ message: "Invalid email format" });
+
+      // Check if user already exists
+      if (await User.findOne({ where: { username: req.body.username } })) {
+        res.status(409).send({ message: "username already exists" });
+      }
+      if (await User.findOne({ where: { email: req.body.email } })) {
+        res.status(409).send({ message: "email already exists" });
       }
 
       // Create user data
@@ -22,7 +37,11 @@ class UserControllers {
         ...req.body,
         // Hash user password
         password: hashPassword(req.body.password),
+        // Add role to user
+        role: "user",
       };
+
+      console.log(data);
       // Create new user in database
       const user = await User.create(data);
       // Send success response
@@ -37,29 +56,29 @@ class UserControllers {
       // Log error
       console.log(error);
       // Send error response
-      res.status(500).send(error);
+      next(error);
     }
   } // End register
   /**
    * Login user endpoint
-   * 
+   *
    * This endpoint logs in an existing user and generates a JSON Web Token (JWT) that will be used to authenticate
    * the user on future requests.
-   * 
+   *
    * @param {Request} req - Request object
    * @param {Response} res - Response object
    */
-  static async login(req, res) {
+  static async login(req, res, next) {
     try {
       // Check if request body contains required fields
-      if(!req.body.email || !req.body.password) {  
-        res.status(401).send({message:"Email and Password can't be empty"});
+      if (!req.body.email || !req.body.password) {
+        res.status(401).send({ message: "Email and Password can't be empty" });
       }
 
       // Get user from database
       const user = await User.findOne({
         where: {
-          username: req.body.username,
+          email: req.body.email,
         },
       });
       if (user) {
@@ -72,6 +91,7 @@ class UserControllers {
             }
           : null;
         if (data) {
+          
           // Generate JWT token and send it to client
           res.send({
             ...data,
@@ -87,20 +107,20 @@ class UserControllers {
     } catch (error) {
       // Log error and send error response
       console.log(error);
-      res.status(500).send(error);
+      next(error);
     }
   }
 
   /**
    * Logout user endpoint
-   * 
+   *
    * This endpoint logs the user out by deleting the user from the request object.
    * If the user is already logged out, the endpoint will send a success message.
-   * 
+   *
    * @param {Request} req - Request object
    * @param {Response} res - Response object
    */
-  static async logout(req, res) {
+  static async logout(req, res, next) {
     try {
       // Check if user is logged in
       if (req.user) {
@@ -116,9 +136,9 @@ class UserControllers {
     } catch (error) {
       // Log error and send error response
       console.log(error);
-      res.status(500).send(error);
+      next(error);
     }
   }
-  }
+}
 
 module.exports = UserControllers;

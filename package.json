@@ -15,7 +15,8 @@
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "pg": "^8.11.5",
-    "sequelize": "^6.37.3"
+    "sequelize": "^6.37.3",
+    "validator": "^13.11.0"
   },
   "devDependencies": {
     "jest": "^29.7.0",

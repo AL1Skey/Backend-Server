@@ -1,5 +1,5 @@
 const { signToken, verifyToken } = require("../helpers/jwt");
-const { User } = require("../models/user");
+const { User } = require("../models/index");
 
 module.exports = class UserAuth {
 
@@ -16,7 +16,6 @@ module.exports = class UserAuth {
     try {
       // Get Authorization Header
       const { authorization } = req.headers;
-
       // If Authorization Header is not found
       if (!authorization) {
         throw new Error("Invalid authorization");
