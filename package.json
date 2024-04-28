@@ -2,7 +2,7 @@
   "name": "backend-server",
   "version": "1.0.0",
   "description": "backend server dummy",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,7 @@
     "sequelize": "^6.37.3"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "sequelize-cli": "^6.6.2"
   }
 }
