@@ -3,7 +3,7 @@ const {hashPassword,comparePassword}=require("../helpers/bcrypt.js")
 const {signToken} = require("../helpers/jwt.js")
 
 class UserControllers {
-  static async register(req, res, next) {
+  static async register(req, res) {
     try {
         const data = {
             ...req.body,
@@ -19,10 +19,10 @@ class UserControllers {
       });
     } catch (error) {
       console.log(error);
-      next(error);
+      res.status(500).send(error);
     }
   }
-  static async login(req, res, next) {
+  static async login(req, res) {
     try {
       console.log(req.body);
       const user = await User.findOne({
@@ -47,7 +47,17 @@ class UserControllers {
         }
       }
     } catch (error) {
-      next(error);
+      res.status(500).send(error);
+    }
+  }
+
+  static async logout(req,res){
+    try {
+      if(req.user) delete req.user
+      else res.send({message:"User Already Logged Out"})
+      res.send({message:"Logout Success"})
+    } catch (error) {
+     res.status(500).send(error) 
     }
   }
 }
