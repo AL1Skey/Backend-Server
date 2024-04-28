@@ -1,0 +1,4072 @@
+[
+  {
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.1",
+    "camera": "12 + 12 + 12",
+    "battery": 3095,
+    "price": 999
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S21 Ultra",
+    "storage": "256 GB",
+    "ram": "12 GB",
+    "screen_size": "6.8",
+    "camera": "108 + 10 + 10 + 12",
+    "battery": 5000,
+    "price": 1199
+  },
+  {
+    "brand": "OnePlus",
+    "model": "9 Pro",
+    "storage": "128 GB",
+    "ram": "8 GB",
+    "screen_size": "6.7",
+    "camera": "48 + 50 + 8 + 2",
+    "battery": 4500,
+    "price": 899
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 10 Pro",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.67",
+    "camera": "64 + 8 + 5 + 2",
+    "battery": 5020,
+    "price": 279
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 6",
+    "storage": "128 GB",
+    "ram": "8 GB",
+    "screen_size": "6.4",
+    "camera": "50 + 12.2",
+    "battery": 4614,
+    "price": 799
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13",
+    "storage": "128 GB",
+    "ram": "4 GB",
+    "screen_size": "6.1",
+    "camera": "12 + 12",
+    "battery": 2815,
+    "price": 799
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip3",
+    "storage": "256 GB",
+    "ram": "8 GB",
+    "screen_size": "6.7",
+    "camera": "12 + 12",
+    "battery": 3300,
+    "price": 999
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Poco X3 Pro",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.67",
+    "camera": "48 + 8 + 2 + 2",
+    "battery": 5160,
+    "price": 249
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno6 Pro+ 5G",
+    "storage": "128 GB",
+    "ram": "8 GB",
+    "screen_size": "6.55",
+    "camera": "50 + 13 + 16 + 2",
+    "battery": 4500,
+    "price": 699
+  },
+  {
+    "brand": "Vivo",
+    "model": "X70 Pro+",
+    "storage": "256 GB",
+    "ram": "12 GB",
+    "screen_size": "6.78",
+    "camera": "50 + 48 + 12 + 8",
+    "battery": 4500,
+    "price": 1199
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Nord CE 5G",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.43",
+    "camera": "64 + 8 + 2",
+    "battery": 4500,
+    "price": 329
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A52s 5G",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.5",
+    "camera": "64 + 12 + 5 + 5",
+    "battery": 4500,
+    "price": 449
+  },
+  {
+    "brand": "Realme",
+    "model": "GT Neo2",
+    "storage": "128 GB",
+    "ram": "8 GB",
+    "screen_size": "6.62",
+    "camera": "64 + 8 + 2",
+    "battery": 5000,
+    "price": 329
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 12 Mini",
+    "storage": "64 GB",
+    "ram": "4 GB",
+    "screen_size": "5.4",
+    "camera": "12 + 12",
+    "battery": 2227,
+    "price": 699
+  },
+  {
+    "brand": "Oppo",
+    "model": "Find X3 Pro",
+    "storage": "256 GB",
+    "ram": "12 GB",
+    "screen_size": "6.7",
+    "camera": "50 + 50 + 13 + 3",
+    "battery": 4500,
+    "price": 1199
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 11 Lite 5G NE",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.55",
+    "camera": "64 + 8 + 5",
+    "battery": 4250,
+    "price": 329
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S21",
+    "storage": "128 GB",
+    "ram": "8 GB",
+    "screen_size": "6.2",
+    "camera": "64 + 12 + 12",
+    "battery": 4000,
+    "price": 799
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y20s (G)",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.51",
+    "camera": "50 + 2 + 2",
+    "battery": 5000,
+    "price": 199
+  },
+  {
+    "brand": "Realme",
+    "model": "8s 5G",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.5",
+    "camera": "48 + 2 + 2",
+    "battery": 5000,
+    "price": 299
+  },
+  {
+    "brand": "Oppo",
+    "model": "A94",
+    "storage": "128 GB",
+    "ram": "8 GB",
+    "screen_size": "6.43",
+    "camera": "48 + 8 + 2 + 2",
+    "battery": 4310,
+    "price": 379
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 10 Prime",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.5",
+    "camera": "50 + 8 + 2 + 2",
+    "battery": 6000,
+    "price": 179
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A22 5G",
+    "storage": "128 GB",
+    "ram": "4 GB",
+    "screen_size": "6.6",
+    "camera": "48 + 5",
+    "battery": 5000,
+    "price": 279
+  },
+  {
+    "brand": "Realme",
+    "model": "Narzo 50 Pro 5G",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.5",
+    "camera": "48 + 50 + 2",
+    "battery": 5000,
+    "price": 249
+  },
+  {
+    "brand": "OnePlus",
+    "model": "9",
+    "storage": "128 GB",
+    "ram": "8 GB",
+    "screen_size": "6.55",
+    "camera": "48 + 50 + 2",
+    "battery": 4500,
+    "price": 729
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 10 Pro Max",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.67",
+    "camera": "108 + 8 + 5 + 2",
+    "battery": 5020,
+    "price": 279
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 11",
+    "storage": "64 GB",
+    "ram": "4 GB",
+    "screen_size": "6.1",
+    "camera": "12 + 12",
+    "battery": 3110,
+    "price": 599
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A03s",
+    "storage": "32 GB",
+    "ram": "3 GB",
+    "screen_size": "6.5",
+    "camera": "13 + 2 + 2",
+    "battery": 5000,
+    "price": 139
+  },
+  {
+    "brand": "Oppo",
+    "model": "A74 5G",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.5",
+    "camera": "48 + 2 + 2",
+    "battery": 5000,
+    "price": 299
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y12s (2021)",
+    "storage": "32 GB",
+    "ram": "3 GB",
+    "screen_size": "6.51",
+    "camera": "13 + 2",
+    "battery": 5000,
+    "price": 139
+  },
+  {
+    "brand": "Realme",
+    "model": "9i",
+    "storage": "128 GB",
+    "ram": "4 GB",
+    "screen_size": "6.5",
+    "camera": "50 + 2 + 2",
+    "battery": 6000,
+    "price": 189
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M52 5G",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.7",
+    "camera": "64 + 12 + 5 + 5",
+    "battery": 5000,
+    "price": 449
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 10",
+    "storage": "128 GB",
+    "ram": "4 GB",
+    "screen_size": "6.5",
+    "camera": "50 + 8 + 2 + 2",
+    "battery": 5000,
+    "price": 179
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone SE (2nd Gen)",
+    "storage": "64 GB",
+    "ram": "3 GB",
+    "screen_size": "4.7",
+    "camera": "12",
+    "battery": 1821,
+    "price": 399
+  },
+  {
+    "brand": "Oppo",
+    "model": "A53s",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.5",
+    "camera": "13 + 2 + 2",
+    "battery": 5000,
+    "price": 259
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y33s",
+    "storage": "128 GB",
+    "ram": "8 GB",
+    "screen_size": "6.58",
+    "camera": "50 + 2 + 2",
+    "battery": 5000,
+    "price": 279
+  },
+  {
+    "brand": "Realme",
+    "model": "C25s",
+    "storage": "128 GB",
+    "ram": "4 GB",
+    "screen_size": "6.5",
+    "camera": "13 + 2 + 2",
+    "battery": 6000,
+    "price": 159
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A22 4G",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.4",
+    "camera": "48 + 5 + 2",
+    "battery": 5000,
+    "price": 229
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Nord 2 5G",
+    "storage": "128 GB",
+    "ram": "8 GB",
+    "screen_size": "6.43",
+    "camera": "50 + 8 + 2",
+    "battery": 4500,
+    "price": 399
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Poco M3 Pro 5G",
+    "storage": "64 GB",
+    "ram": "4 GB",
+    "screen_size": "6.5",
+    "camera": "48 + 2 + 2",
+    "battery": 5000,
+    "price": 199
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone XR",
+    "storage": "64 GB",
+    "ram": "3 GB",
+    "screen_size": "6.1",
+    "camera": "12",
+    "battery": 2942,
+    "price": 499
+  },
+  {
+    "brand": "Oppo",
+    "model": "A16",
+    "storage": "64 GB",
+    "ram": "3 GB",
+    "screen_size": "6.52",
+    "camera": "13 + 2 + 2",
+    "battery": 5000,
+    "price": 159
+  },
+  {
+    "brand": "Realme",
+    "model": "C21Y",
+    "storage": "64 GB",
+    "ram": "4 GB",
+    "screen_size": "6.5",
+    "camera": "13 + 2 + 2",
+    "battery": 5000,
+    "price": 129
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy F22",
+    "storage": "64 GB",
+    "ram": "4 GB",
+    "screen_size": "6.4",
+    "camera": "48 + 8 + 2 + 2",
+    "battery": 6000,
+    "price": 189
+  },
+  {
+    "brand": "Oppo",
+    "model": "F19 Pro+ 5G",
+    "storage": "128 GB",
+    "ram": "8 GB",
+    "screen_size": "6.43",
+    "camera": "64 + 8 + 2 + 2",
+    "battery": 4310,
+    "price": 399
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 11X",
+    "storage": "128 GB",
+    "ram": "8 GB",
+    "screen_size": "6.67",
+    "camera": "48 + 8 + 5",
+    "battery": 4520,
+    "price": 529
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 12 Mini",
+    "storage": "64 GB",
+    "ram": "4 GB",
+    "screen_size": "5.4",
+    "camera": "12 + 12",
+    "battery": 2227,
+    "price": 699
+  },
+  {
+    "brand": "Vivo",
+    "model": "V21e",
+    "storage": "128 GB",
+    "ram": "8 GB",
+    "screen_size": "6.44",
+    "camera": "64 + 8",
+    "battery": 4000,
+    "price": 369
+  },
+  {
+    "brand": "Realme",
+    "model": "8 5G",
+    "storage": "128 GB",
+    "ram": "4 GB",
+    "screen_size": "6.5",
+    "camera": "48 + 2 + 2",
+    "battery": 5000,
+    "price": 199
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M12",
+    "storage": "64 GB",
+    "ram": "4 GB",
+    "screen_size": "6.5",
+    "camera": "48 + 5 + 2 + 2",
+    "battery": 6000,
+    "price": 159
+  },
+  {
+    "brand": "Oppo",
+    "model": "A16s",
+    "storage": "64 GB",
+    "ram": "4 GB",
+    "screen_size": "6.52",
+    "camera": "13 + 2 + 2",
+    "battery": 5000,
+    "price": 179
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9 Power",
+    "storage": "128 GB",
+    "ram": "4 GB",
+    "screen_size": "6.53",
+    "camera": "48 + 8 + 2 + 2",
+    "battery": 6000,
+    "price": 189
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 11 Pro Max",
+    "storage": "256 GB",
+    "ram": "4 GB",
+    "screen_size": "6.5",
+    "camera": "12 + 12 + 12",
+    "battery": 3969,
+    "price": 1099
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y20G",
+    "storage": "64 GB",
+    "ram": "4 GB",
+    "screen_size": "6.51",
+    "camera": "13 + 2 + 2",
+    "battery": 5000,
+    "price": 169
+  },
+  {
+    "brand": "Realme",
+    "model": "Narzo 50i",
+    "storage": "32 GB",
+    "ram": "2 GB",
+    "screen_size": "6.5",
+    "camera": "50 + 2",
+    "battery": 5000,
+    "price": 99
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A52s 5G",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.5",
+    "camera": "64 + 12 + 5 + 5",
+    "battery": 4500,
+    "price": 459
+  },
+  {
+    "brand": "Oppo",
+    "model": "A54",
+    "storage": "128 GB",
+    "ram": "4 GB",
+    "screen_size": "6.51",
+    "camera": "13 + 2 + 2",
+    "battery": 5000,
+    "price": 239
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9T",
+    "storage": "128 GB",
+    "ram": "4 GB",
+    "screen_size": "6.53",
+    "camera": "48 + 8 + 2 + 2",
+    "battery": 6000,
+    "price": 199
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13 Pro Max",
+    "storage": "256 GB",
+    "ram": "6 GB",
+    "screen_size": "6.7",
+    "camera": "12 + 12 + 12",
+    "battery": 4352,
+    "price": 1299
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y33",
+    "storage": "128 GB",
+    "ram": "8 GB",
+    "screen_size": "6.58",
+    "camera": "50 + 2 + 2",
+    "battery": 5000,
+    "price": 249
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A72",
+    "storage": "128 GB",
+    "ram": "8 GB",
+    "screen_size": "6.7",
+    "camera": "64 + 12 + 8 + 5",
+    "battery": 5000,
+    "price": 429
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno6 Pro 5G",
+    "storage": "128 GB",
+    "ram": "12 GB",
+    "screen_size": "6.55",
+    "camera": "64 + 8 + 2 + 2",
+    "battery": 4500,
+    "price": 659
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Poco M3 Pro 5G",
+    "storage": "64 GB",
+    "ram": "4 GB",
+    "screen_size": "6.5",
+    "camera": "48 + 2 + 2",
+    "battery": 5000,
+    "price": 199
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone SE (2020)",
+    "storage": "64 GB",
+    "ram": "3 GB",
+    "screen_size": "4.7",
+    "camera": "12",
+    "battery": 1821,
+    "price": 399
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y53s",
+    "storage": "128 GB",
+    "ram": "8 GB",
+    "screen_size": "6.58",
+    "camera": "64 + 2",
+    "battery": 5000,
+    "price": 269
+  },
+  {
+    "brand": "Realme",
+    "model": "7i",
+    "storage": "128 GB",
+    "ram": "8 GB",
+    "screen_size": "6.5",
+    "camera": "64 + 8 + 2 + 2",
+    "battery": 5000,
+    "price": 239
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A52 5G",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.5",
+    "camera": "64 + 12 + 5 + 5",
+    "battery": 4500,
+    "price": 449
+  },
+  {
+    "brand": "Oppo",
+    "model": "F19 Pro",
+    "storage": "128 GB",
+    "ram": "8 GB",
+    "screen_size": "6.43",
+    "camera": "48 + 8 + 2 + 2",
+    "battery": 4310,
+    "price": 359
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 10S",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.43",
+    "camera": "64 + 8 + 2 + 2",
+    "battery": 5000,
+    "price": 229
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone XR",
+    "storage": "64 GB",
+    "ram": "3 GB",
+    "screen_size": "6.1",
+    "camera": "12 + 12",
+    "battery": 2942,
+    "price": 499
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y21s",
+    "storage": "128 GB",
+    "ram": "4 GB",
+    "screen_size": "6.51",
+    "camera": "50 + 2",
+    "battery": 5000,
+    "price": 179
+  },
+  {
+    "brand": "Realme",
+    "model": "C25s",
+    "storage": "128 GB",
+    "ram": "4 GB",
+    "screen_size": "6.5",
+    "camera": "13 + 2 + 2",
+    "battery": 6000,
+    "price": 169
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A22 5G",
+    "storage": "128 GB",
+    "ram": "4 GB",
+    "screen_size": "6.6",
+    "camera": "48 + 5 + 2",
+    "battery": 5000,
+    "price": 239
+  },
+  {
+    "brand": "Oppo",
+    "model": "A94",
+    "storage": "128 GB",
+    "ram": "8 GB",
+    "screen_size": "6.43",
+    "camera": "48 + 8 + 2 + 2",
+    "battery": 4310,
+    "price": 329
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 11 Lite 5G",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "screen_size": "6.55",
+    "camera": "64 + 8 + 5",
+    "battery": 4250,
+    "price": 369
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 11",
+    "storage": "128 GB",
+    "ram": "4 GB",
+    "screen_size": "6.1",
+    "camera": "12 + 12",
+    "battery": 3110,
+    "price": 599
+  },
+  {
+    "brand": "Vivo",
+    "model": "X60 Pro",
+    "storage": "256 GB",
+    "ram": "12 GB",
+    "screen_size": "6.56",
+    "camera": "48 + 13 + 13",
+    "battery": 4200,
+    "price": 799
+  },
+  {
+    "brand": "Realme",
+    "model": "Narzo 50A",
+    "storage": "64 GB",
+    "ram": "4 GB",
+    "screen_size": "6.5",
+    "camera": "50 + 2",
+    "battery": 5000,
+    "price": 139
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.1",
+    "camera": "12MP + 12MP",
+    "battery": 2815,
+    "price": 799
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S21",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.2",
+    "camera": "64MP + 12MP + 12MP",
+    "battery": 4000,
+    "price": 799
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Nord 2",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.43",
+    "camera": "50MP + 8MP + 2MP",
+    "battery": 4500,
+    "price": 399
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 6",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.4",
+    "camera": "50MP + 12MP",
+    "battery": 4600,
+    "price": 699
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Poco X4 Pro",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.67",
+    "camera": "48MP + 8MP + 2MP + 2MP",
+    "battery": 5160,
+    "price": 329
+  },
+  {
+    "brand": "Realme",
+    "model": "GT Master Edition",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.43",
+    "camera": "64MP + 8MP + 2MP",
+    "battery": 4300,
+    "price": 399
+  },
+  {
+    "brand": "Vivo",
+    "model": "X70 Pro+",
+    "storage": "256GB",
+    "ram": "12GB",
+    "screen_size": "6.78",
+    "camera": "50MP + 48MP + 12MP + 8MP",
+    "battery": 4450,
+    "price": 999
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno6 Pro+",
+    "storage": "256GB",
+    "ram": "12GB",
+    "screen_size": "6.55",
+    "camera": "50MP + 16MP + 13MP + 2MP",
+    "battery": 4500,
+    "price": 699
+  },
+  {
+    "brand": "Motorola",
+    "model": "Edge 20 Pro",
+    "storage": "256GB",
+    "ram": "12GB",
+    "screen_size": "6.7",
+    "camera": "108MP + 16MP + 8MP",
+    "battery": 4500,
+    "price": 699
+  },
+  {
+    "brand": "Nokia",
+    "model": "XR20",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.67",
+    "camera": "48MP + 13MP",
+    "battery": 4630,
+    "price": 549
+  },
+  {
+    "brand": "Sony",
+    "model": "Xperia 5 III",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.1",
+    "camera": "12MP + 12MP + 12MP",
+    "battery": 4500,
+    "price": 1299
+  },
+  {
+    "brand": "LG",
+    "model": "Wing",
+    "storage": "256GB",
+    "ram": "8GB",
+    "screen_size": "6.8 + 3.9",
+    "camera": "64MP + 13MP + 12MP",
+    "battery": 4000,
+    "price": 999
+  },
+  {
+    "brand": "Asus",
+    "model": "Zenfone 8 Flip",
+    "storage": "256GB",
+    "ram": "8GB",
+    "screen_size": "6.67",
+    "camera": "64MP + 12MP + 8MP",
+    "battery": 5000,
+    "price": 899
+  },
+  {
+    "brand": "Blackberry",
+    "model": "KEY2 LE",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "4.5",
+    "camera": "13MP + 5MP",
+    "battery": 3000,
+    "price": 399
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A72",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.7",
+    "camera": "64MP + 12MP + 8MP + 5MP",
+    "battery": 5000,
+    "price": 449
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 10 Pro Max",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.67",
+    "camera": "108MP + 8MP + 5MP + 2MP",
+    "battery": 5020,
+    "price": 319
+  },
+  {
+    "brand": "Realme",
+    "model": "Narzo 50 Pro 5G",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 50MP + 2MP",
+    "battery": 5000,
+    "price": 269
+  },
+  {
+    "brand": "Oppo",
+    "model": "F19 Pro+",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.43",
+    "camera": "48MP + 8MP + 2MP + 2MP",
+    "battery": 4310,
+    "price": 349
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y33s",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.58",
+    "camera": "50MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 269
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G60",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.8",
+    "camera": "108MP + 8MP + 2MP",
+    "battery": 6000,
+    "price": 279
+  },
+  {
+    "brand": "Nokia",
+    "model": "5.4",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.39",
+    "camera": "48MP + 5MP + 2MP",
+    "battery": 4000,
+    "price": 249
+  },
+  {
+    "brand": "LG",
+    "model": "K92 5G",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.7",
+    "camera": "64MP + 5MP + 2MP + 2MP",
+    "battery": 4000,
+    "price": 349
+  },
+  {
+    "brand": "Asus",
+    "model": "Zenfone 8",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "5.9",
+    "camera": "64MP + 12MP",
+    "battery": 4000,
+    "price": 699
+  },
+  {
+    "brand": "Blackberry",
+    "model": "KEY2",
+    "storage": "64GB",
+    "ram": "6GB",
+    "screen_size": "4.5",
+    "camera": "12MP + 12MP",
+    "battery": 3500,
+    "price": 699
+  },
+  {
+    "brand": "CAT",
+    "model": "S42",
+    "storage": "32GB",
+    "ram": "3GB",
+    "screen_size": "5.5",
+    "camera": "13MP + 5MP",
+    "battery": 4200,
+    "price": 299
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip 3",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.7",
+    "camera": "12MP + 12MP",
+    "battery": 3300,
+    "price": 999
+  },
+  {
+    "brand": "OnePlus",
+    "model": "9 Pro",
+    "storage": "256GB",
+    "ram": "12GB",
+    "screen_size": "6.7",
+    "camera": "48MP + 50MP + 8MP",
+    "battery": 4500,
+    "price": 969
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 11 Ultra",
+    "storage": "256GB",
+    "ram": "12GB",
+    "screen_size": "6.81",
+    "camera": "50MP + 48MP + 48MP",
+    "battery": 5000,
+    "price": 1199
+  },
+  {
+    "brand": "Oppo",
+    "model": "A16",
+    "storage": "32GB",
+    "ram": "3GB",
+    "screen_size": "6.52",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 149
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y12A",
+    "storage": "32GB",
+    "ram": "3GB",
+    "screen_size": "6.51",
+    "camera": "13MP + 2MP",
+    "battery": 5000,
+    "price": 139
+  },
+  {
+    "brand": "Nokia",
+    "model": "C20 Plus",
+    "storage": "32GB",
+    "ram": "3GB",
+    "screen_size": "6.5",
+    "camera": "8MP + 2MP",
+    "battery": 4950,
+    "price": 99
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S20 FE 5G",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.5",
+    "camera": "12MP + 12MP + 8MP",
+    "battery": 4500,
+    "price": 699
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto E7i Power",
+    "storage": "32GB",
+    "ram": "2GB",
+    "screen_size": "6.5",
+    "camera": "13MP + 2MP",
+    "battery": 5000,
+    "price": 99
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Poco M3 Pro 5G",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 199
+  },
+  {
+    "brand": "Realme",
+    "model": "C21Y",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 169
+  },
+  {
+    "brand": "Asus",
+    "model": "ROG Phone 5",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.78",
+    "camera": "64MP + 13MP + 5MP",
+    "battery": 6000,
+    "price": 999
+  },
+  {
+    "brand": "LG",
+    "model": "Velvet 5G",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.8",
+    "camera": "48MP + 8MP + 5MP",
+    "battery": 4300,
+    "price": 499
+  },
+  {
+    "brand": "Blackberry",
+    "model": "Evolve",
+    "storage": "64GB",
+    "ram": "6GB",
+    "screen_size": "5.99",
+    "camera": "12MP + 13MP",
+    "battery": 4000,
+    "price": 399
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno 6 Pro+",
+    "storage": "256GB",
+    "ram": "12GB",
+    "screen_size": "6.55",
+    "camera": "50MP + 13MP + 16MP + 2MP",
+    "battery": 4500,
+    "price": 799
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A03s",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 179
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 10 Prime",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.5",
+    "camera": "50MP + 8MP + 2MP + 2MP",
+    "battery": 6000,
+    "price": 219
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G50",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 5MP + 2MP",
+    "battery": 5000,
+    "price": 249
+  },
+  {
+    "brand": "Realme",
+    "model": "Narzo 50A",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "50MP + 2MP",
+    "battery": 6000,
+    "price": 149
+  },
+  {
+    "brand": "Nokia",
+    "model": "G20",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 5MP",
+    "battery": 5050,
+    "price": 199
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M32",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.4",
+    "camera": "64MP + 8MP + 2MP + 2MP",
+    "battery": 6000,
+    "price": 279
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y20G",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.51",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 179
+  },
+  {
+    "brand": "Asus",
+    "model": "Zenfone 8 Flip",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.67",
+    "camera": "64MP + 12MP + 12MP",
+    "battery": 5000,
+    "price": 899
+  },
+  {
+    "brand": "Oppo",
+    "model": "A54",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.51",
+    "camera": "50MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 269
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy F22",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.4",
+    "camera": "48MP + 8MP + 2MP + 2MP",
+    "battery": 6000,
+    "price": 229
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 11 Lite 5G",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.55",
+    "camera": "64MP + 8MP + 5MP",
+    "battery": 4250,
+    "price": 399
+  },
+  {
+    "brand": "Realme",
+    "model": "8i",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.6",
+    "camera": "50MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 239
+  },
+  {
+    "brand": "Nokia",
+    "model": "C30",
+    "storage": "64GB",
+    "ram": "3GB",
+    "screen_size": "6.82",
+    "camera": "13MP + 2MP",
+    "battery": 6000,
+    "price": 149
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A32",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.4",
+    "camera": "64MP + 8MP + 5MP + 5MP",
+    "battery": 5000,
+    "price": 279
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 10 Pro Max",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.67",
+    "camera": "108MP + 8MP + 5MP + 2MP",
+    "battery": 5020,
+    "price": 329
+  },
+  {
+    "brand": "Realme",
+    "model": "C21Y",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 149
+  },
+  {
+    "brand": "Nokia",
+    "model": "XR20",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.67",
+    "camera": "48MP + 13MP",
+    "battery": 4630,
+    "price": 549
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A52s 5G",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.5",
+    "camera": "64MP + 12MP + 5MP + 5MP",
+    "battery": 4500,
+    "price": 449
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y33s",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.58",
+    "camera": "50MP + 2MP",
+    "battery": 5000,
+    "price": 279
+  },
+  {
+    "brand": "Oppo",
+    "model": "A16s",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.52",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 199
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G Stylus 5G",
+    "storage": "128GB",
+    "ram": "5GB",
+    "screen_size": "6.8",
+    "camera": "48MP + 8MP + 5MP",
+    "battery": 5000,
+    "price": 399
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Poco M3 Pro 5G",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 179
+  },
+  {
+    "brand": "Realme",
+    "model": "GT Neo2",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.62",
+    "camera": "64MP + 8MP + 2MP",
+    "battery": 5000,
+    "price": 399
+  },
+  {
+    "brand": "Nokia",
+    "model": "C20 Plus",
+    "storage": "32GB",
+    "ram": "3GB",
+    "screen_size": "6.5",
+    "camera": "8MP + 2MP",
+    "battery": 4950,
+    "price": 109
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A21s",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 8MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 219
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y12s",
+    "storage": "32GB",
+    "ram": "3GB",
+    "screen_size": "6.51",
+    "camera": "13MP + 2MP",
+    "battery": 5000,
+    "price": 149
+  },
+  {
+    "brand": "Oppo",
+    "model": "F19s",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.43",
+    "camera": "48MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 299
+  },
+  {
+    "brand": "Realme",
+    "model": "Narzo 30 Pro 5G",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 8MP + 2MP",
+    "battery": 5000,
+    "price": 279
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A03s",
+    "storage": "32GB",
+    "ram": "3GB",
+    "screen_size": "6.5",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 149
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 10 Prime",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "50MP + 8MP + 2MP + 2MP",
+    "battery": 6000,
+    "price": 189
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G Pure",
+    "storage": "32GB",
+    "ram": "3GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 2MP",
+    "battery": 5000,
+    "price": 169
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno6 Z 5G",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.4",
+    "camera": "64MP + 8MP + 2MP",
+    "battery": 4310,
+    "price": 389
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S21 Ultra 5G",
+    "storage": "256GB",
+    "ram": "12GB",
+    "screen_size": "6.8",
+    "camera": "108MP + 12MP + 10MP + 10MP",
+    "battery": 5000,
+    "price": 1199
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y53s",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.58",
+    "camera": "64MP + 2MP",
+    "battery": 5000,
+    "price": 299
+  },
+  {
+    "brand": "Realme",
+    "model": "8i",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.6",
+    "camera": "50MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 219
+  },
+  {
+    "brand": "Nokia",
+    "model": "G50",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.82",
+    "camera": "48MP + 5MP + 2MP",
+    "battery": 5000,
+    "price": 299
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9 Activ",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.53",
+    "camera": "13MP + 2MP",
+    "battery": 5000,
+    "price": 149
+  },
+  {
+    "brand": "Oppo",
+    "model": "A54s",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.5",
+    "camera": "50MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 249
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M22",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.4",
+    "camera": "48MP + 8MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 219
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G Power 2022",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.6",
+    "camera": "48MP + 8MP + 2MP",
+    "battery": 5000,
+    "price": 249
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y21s",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.51",
+    "camera": "50MP + 2MP",
+    "battery": 5000,
+    "price": 179
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Poco X3 GT",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.6",
+    "camera": "64MP + 8MP + 2MP",
+    "battery": 5000,
+    "price": 299
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy F42 5G",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.6",
+    "camera": "64MP + 8MP + 5MP",
+    "battery": 5000,
+    "price": 309
+  },
+  {
+    "brand": "Oppo",
+    "model": "A16s",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.52",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 179
+  },
+  {
+    "brand": "Vivo",
+    "model": "V21e",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.44",
+    "camera": "64MP + 8MP",
+    "battery": 4000,
+    "price": 369
+  },
+  {
+    "brand": "Realme",
+    "model": "GT Master Edition",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.43",
+    "camera": "64MP + 8MP + 2MP",
+    "battery": 4300,
+    "price": 349
+  },
+  {
+    "brand": "Motorola",
+    "model": "Edge 20 Fusion",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.7",
+    "camera": "108MP + 8MP + 2MP",
+    "battery": 5000,
+    "price": 499
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A21s",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 8MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 199
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 10S",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.43",
+    "camera": "64MP + 8MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 229
+  },
+  {
+    "brand": "Oppo",
+    "model": "A74 5G",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 299
+  },
+  {
+    "brand": "Realme",
+    "model": "C21",
+    "storage": "64GB",
+    "ram": "3GB",
+    "screen_size": "6.5",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 129
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M52 5G",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.7",
+    "camera": "64MP + 12MP + 5MP + 5MP",
+    "battery": 5000,
+    "price": 449
+  },
+  {
+    "brand": "Vivo",
+    "model": "V21 5G",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.44",
+    "camera": "64MP + 8MP",
+    "battery": 4000,
+    "price": 499
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 9 Pro Max",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.67",
+    "camera": "64MP + 8MP + 5MP + 2MP",
+    "battery": 5020,
+    "price": 279
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G Stylus 5G",
+    "storage": "128GB",
+    "ram": "5GB",
+    "screen_size": "6.8",
+    "camera": "48MP + 8MP + 5MP",
+    "battery": 5000,
+    "price": 399
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno6 Pro+ 5G",
+    "storage": "256GB",
+    "ram": "12GB",
+    "screen_size": "6.55",
+    "camera": "50MP + 16MP + 13MP + 2MP",
+    "battery": 4500,
+    "price": 849
+  },
+  {
+    "brand": "Realme",
+    "model": "Narzo 30 Pro 5G",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 8MP + 2MP",
+    "battery": 5000,
+    "price": 279
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A32",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.4",
+    "camera": "64MP + 8MP + 5MP + 2MP",
+    "battery": 5000,
+    "price": 299
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Poco X3 Pro",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.67",
+    "camera": "48MP + 8MP + 2MP + 2MP",
+    "battery": 5160,
+    "price": 249
+  },
+  {
+    "brand": "Realme",
+    "model": "C25s",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 6000,
+    "price": 149
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G Power 2021",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.6",
+    "camera": "48MP + 2MP",
+    "battery": 5000,
+    "price": 199
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A52s 5G",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.5",
+    "camera": "64MP + 12MP + 5MP + 5MP",
+    "battery": 4500,
+    "price": 469
+  },
+  {
+    "brand": "Vivo",
+    "model": "V21e 5G",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.44",
+    "camera": "64MP + 8MP",
+    "battery": 4000,
+    "price": 329
+  },
+  {
+    "brand": "Oppo",
+    "model": "A53s 5G",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.52",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 279
+  },
+  {
+    "brand": "Realme",
+    "model": "GT Neo2",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.62",
+    "camera": "64MP + 8MP + 2MP",
+    "battery": 5000,
+    "price": 369
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M32",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.4",
+    "camera": "64MP + 8MP + 2MP + 2MP",
+    "battery": 6000,
+    "price": 269
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 11 Lite NE",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.55",
+    "camera": "64MP + 8MP + 5MP",
+    "battery": 4250,
+    "price": 329
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G Stylus 2021",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.4",
+    "camera": "48MP + 8MP + 2MP",
+    "battery": 4000,
+    "price": 299
+  },
+  {
+    "brand": "Oppo",
+    "model": "A54s 5G",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 299
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy F41",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.4",
+    "camera": "64MP + 8MP + 5MP",
+    "battery": 6000,
+    "price": 239
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 10 Pro",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.67",
+    "camera": "64MP + 8MP + 5MP + 2MP",
+    "battery": 5020,
+    "price": 329
+  },
+  {
+    "brand": "Realme",
+    "model": "Narzo 50A",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "50MP + 2MP",
+    "battery": 5000,
+    "price": 149
+  },
+  {
+    "brand": "Oppo",
+    "model": "A16s",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.52",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 189
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M52",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.7",
+    "camera": "64MP + 12MP + 5MP + 5MP",
+    "battery": 5000,
+    "price": 449
+  },
+  {
+    "brand": "Vivo",
+    "model": "V21 5G",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.44",
+    "camera": "64MP + 8MP + 2MP",
+    "battery": 4000,
+    "price": 399
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G50s",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 5MP + 2MP",
+    "battery": 5000,
+    "price": 249
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A13",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "50MP + 5MP",
+    "battery": 5000,
+    "price": 189
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9 Activ",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.53",
+    "camera": "50MP + 2MP",
+    "battery": 5000,
+    "price": 209
+  },
+  {
+    "brand": "Realme",
+    "model": "7i",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.5",
+    "camera": "64MP + 8MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 199
+  },
+  {
+    "brand": "Oppo",
+    "model": "A74 5G",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 299
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A42 5G",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.6",
+    "camera": "48MP + 8MP + 5MP + 5MP",
+    "battery": 5000,
+    "price": 329
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y33s",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.58",
+    "camera": "50MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 249
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G9 Power Lite",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 2MP + 2MP",
+    "battery": 6000,
+    "price": 149
+  },
+  {
+    "brand": "Realme",
+    "model": "C21Y",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 119
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A22",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.4",
+    "camera": "48MP + 8MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 219
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 10S",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.43",
+    "camera": "64MP + 8MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 279
+  },
+  {
+    "brand": "Oppo",
+    "model": "A74",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.43",
+    "camera": "48MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 299
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A32",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.4",
+    "camera": "64MP + 8MP + 5MP + 5MP",
+    "battery": 5000,
+    "price": 269
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y72 5G",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.58",
+    "camera": "64MP + 8MP + 2MP",
+    "battery": 5000,
+    "price": 339
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G60",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.8",
+    "camera": "108MP + 8MP + 2MP",
+    "battery": 6000,
+    "price": 299
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 10i",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.67",
+    "camera": "108MP + 8MP + 2MP + 2MP",
+    "battery": 4820,
+    "price": 319
+  },
+  {
+    "brand": "Realme",
+    "model": "Narzo 30 Pro",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 8MP + 2MP",
+    "battery": 5000,
+    "price": 279
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M62",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.7",
+    "camera": "64MP + 12MP + 5MP + 5MP",
+    "battery": 7000,
+    "price": 429
+  },
+  {
+    "brand": "Oppo",
+    "model": "A53s",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.5",
+    "camera": "50MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 269
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 10 Prime",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.5",
+    "camera": "50MP + 8MP + 2MP + 2MP",
+    "battery": 6000,
+    "price": 199
+  },
+  {
+    "brand": "Realme",
+    "model": "C25s",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 6000,
+    "price": 159
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A12",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 5MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 179
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Poco X3 Pro",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.67",
+    "camera": "48MP + 8MP + 2MP + 2MP",
+    "battery": 5160,
+    "price": 299
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A03s",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 149
+  },
+  {
+    "brand": "Oppo",
+    "model": "A15s",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.52",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 4230,
+    "price": 169
+  },
+  {
+    "brand": "Realme",
+    "model": "C11 2021",
+    "storage": "32GB",
+    "ram": "2GB",
+    "screen_size": "6.52",
+    "camera": "8MP + 2MP",
+    "battery": 5000,
+    "price": 99
+  },
+  {
+    "brand": "Nokia",
+    "model": "C30",
+    "storage": "32GB",
+    "ram": "2GB",
+    "screen_size": "6.82",
+    "camera": "13MP + 2MP",
+    "battery": 6000,
+    "price": 149
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9i",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.53",
+    "camera": "13MP",
+    "battery": 5000,
+    "price": 139
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A22 5G",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.6",
+    "camera": "48MP + 5MP + 2MP",
+    "battery": 5000,
+    "price": 279
+  },
+  {
+    "brand": "Oppo",
+    "model": "A53",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.5",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 219
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y12s",
+    "storage": "32GB",
+    "ram": "3GB",
+    "screen_size": "6.51",
+    "camera": "13MP + 2MP",
+    "battery": 5000,
+    "price": 149
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 11 Lite 5G",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.55",
+    "camera": "64MP + 8MP + 5MP",
+    "battery": 4250,
+    "price": 429
+  },
+  {
+    "brand": "Realme",
+    "model": "7 5G",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 8MP + 2MP",
+    "battery": 5000,
+    "price": 279
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M31s",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.5",
+    "camera": "64MP + 12MP + 5MP + 5MP",
+    "battery": 6000,
+    "price": 379
+  },
+  {
+    "brand": "Oppo",
+    "model": "A15",
+    "storage": "32GB",
+    "ram": "3GB",
+    "screen_size": "6.52",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 4230,
+    "price": 149
+  },
+  {
+    "brand": "Nokia",
+    "model": "G10",
+    "storage": "32GB",
+    "ram": "3GB",
+    "screen_size": "6.52",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5050,
+    "price": 169
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Poco X3 GT",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.6",
+    "camera": "64MP + 8MP + 2MP",
+    "battery": 5000,
+    "price": 329
+  },
+  {
+    "brand": "Realme",
+    "model": "C25",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 6000,
+    "price": 179
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 10 Pro Max",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.67",
+    "camera": "108MP + 8MP + 5MP + 2MP",
+    "battery": 5020,
+    "price": 329
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A52 5G",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.5",
+    "camera": "64MP + 12MP + 5MP + 5MP",
+    "battery": 4500,
+    "price": 449
+  },
+  {
+    "brand": "Oppo",
+    "model": "A94",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.43",
+    "camera": "48MP + 8MP + 2MP + 2MP",
+    "battery": 4310,
+    "price": 399
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y33s",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.58",
+    "camera": "50MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 289
+  },
+  {
+    "brand": "Realme",
+    "model": "Narzo 50A",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "50MP + 2MP",
+    "battery": 5000,
+    "price": 149
+  },
+  {
+    "brand": "Nokia",
+    "model": "X20",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.67",
+    "camera": "64MP + 5MP + 2MP + 2MP",
+    "battery": 4470,
+    "price": 449
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9 Power",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.53",
+    "camera": "48MP + 8MP + 2MP + 2MP",
+    "battery": 6000,
+    "price": 199
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M12",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 5MP + 2MP + 2MP",
+    "battery": 6000,
+    "price": 179
+  },
+  {
+    "brand": "Oppo",
+    "model": "A53s",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.5",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 229
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y20s G",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.51",
+    "camera": "50MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 209
+  },
+  {
+    "brand": "Realme",
+    "model": "C21Y",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 139
+  },
+  {
+    "brand": "Nokia",
+    "model": "C20 Plus",
+    "storage": "32GB",
+    "ram": "3GB",
+    "screen_size": "6.5",
+    "camera": "8MP + 2MP",
+    "battery": 4950,
+    "price": 99
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 10 Prime",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "50MP + 8MP + 2MP + 2MP",
+    "battery": 6000,
+    "price": 199
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno 6 Pro 5G",
+    "storage": "128GB",
+    "ram": "12GB",
+    "screen_size": "6.55",
+    "camera": "64MP + 8MP + 2MP",
+    "battery": 4500,
+    "price": 549
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y31s",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.58",
+    "camera": "13MP + 2MP",
+    "battery": 5000,
+    "price": 239
+  },
+  {
+    "brand": "Realme",
+    "model": "8 5G",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 2MP",
+    "battery": 5000,
+    "price": 299
+  },
+  {
+    "brand": "Nokia",
+    "model": "G20",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 5MP + 2MP + 2MP",
+    "battery": 5050,
+    "price": 199
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Poco X3 Pro",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.67",
+    "camera": "48MP + 8MP + 2MP + 2MP",
+    "battery": 5160,
+    "price": 249
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A32 5G",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 8MP + 5MP + 2MP",
+    "battery": 5000,
+    "price": 279
+  },
+  {
+    "brand": "Oppo",
+    "model": "A16",
+    "storage": "32GB",
+    "ram": "3GB",
+    "screen_size": "6.52",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 149
+  },
+  {
+    "brand": "Vivo",
+    "model": "V21 5G",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.44",
+    "camera": "64MP + 8MP + 2MP",
+    "battery": 4000,
+    "price": 469
+  },
+  {
+    "brand": "Realme",
+    "model": "C11 2021",
+    "storage": "32GB",
+    "ram": "2GB",
+    "screen_size": "6.5",
+    "camera": "8MP + 2MP",
+    "battery": 5000,
+    "price": 99
+  },
+  {
+    "brand": "Nokia",
+    "model": "5.4",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.39",
+    "camera": "48MP + 5MP + 2MP + 2MP",
+    "battery": 4000,
+    "price": 249
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 10",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.43",
+    "camera": "48MP + 8MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 199
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy F41",
+    "storage": "64GB",
+    "ram": "6GB",
+    "screen_size": "6.4",
+    "camera": "64MP + 8MP + 5MP",
+    "battery": 6000,
+    "price": 249
+  },
+  {
+    "brand": "Oppo",
+    "model": "A54",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.51",
+    "camera": "48MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 249
+  },
+  {
+    "brand": "Vivo",
+    "model": "V20 SE",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.44",
+    "camera": "48MP + 8MP + 2MP",
+    "battery": 4100,
+    "price": 319
+  },
+  {
+    "brand": "Nokia",
+    "model": "3.4",
+    "storage": "64GB",
+    "ram": "3GB",
+    "screen_size": "6.39",
+    "camera": "13MP + 5MP + 2MP",
+    "battery": 4000,
+    "price": 179
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 9 Pro Max",
+    "storage": "64GB",
+    "ram": "6GB",
+    "screen_size": "6.67",
+    "camera": "64MP + 8MP + 5MP + 2MP",
+    "battery": 5020,
+    "price": 279
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M31s",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.5",
+    "camera": "64MP + 12MP + 5MP + 5MP",
+    "battery": 6000,
+    "price": 349
+  },
+  {
+    "brand": "Oppo",
+    "model": "A54",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.51",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 219
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y12s",
+    "storage": "32GB",
+    "ram": "3GB",
+    "screen_size": "6.51",
+    "camera": "13MP + 2MP",
+    "battery": 5000,
+    "price": 149
+  },
+  {
+    "brand": "Realme",
+    "model": "C20",
+    "storage": "32GB",
+    "ram": "2GB",
+    "screen_size": "6.5",
+    "camera": "8MP",
+    "battery": 5000,
+    "price": 99
+  },
+  {
+    "brand": "Nokia",
+    "model": "1.4",
+    "storage": "32GB",
+    "ram": "2GB",
+    "screen_size": "6.51",
+    "camera": "8MP + 2MP",
+    "battery": 4000,
+    "price": 119
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9 Power",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.53",
+    "camera": "48MP + 8MP + 2MP + 2MP",
+    "battery": 6000,
+    "price": 169
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A02s",
+    "storage": "32GB",
+    "ram": "3GB",
+    "screen_size": "6.5",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 139
+  },
+  {
+    "brand": "Oppo",
+    "model": "A15s",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.52",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 4230,
+    "price": 159
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y51A",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.58",
+    "camera": "48MP + 8MP + 2MP",
+    "battery": 5000,
+    "price": 289
+  },
+  {
+    "brand": "Realme",
+    "model": "Narzo 20",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 8MP + 2MP",
+    "battery": 6000,
+    "price": 199
+  },
+  {
+    "brand": "Nokia",
+    "model": "5.3",
+    "storage": "64GB",
+    "ram": "3GB",
+    "screen_size": "6.55",
+    "camera": "13MP + 5MP + 2MP + 2MP",
+    "battery": 4000,
+    "price": 199
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 8",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.3",
+    "camera": "48MP + 8MP + 2MP + 2MP",
+    "battery": 4000,
+    "price": 179
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M11",
+    "storage": "32GB",
+    "ram": "3GB",
+    "screen_size": "6.4",
+    "camera": "13MP + 5MP + 2MP",
+    "battery": 5000,
+    "price": 130
+  },
+  {
+    "brand": "Oppo",
+    "model": "A54",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.51",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 199
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y20s",
+    "storage": "128GB",
+    "ram": "8GB",
+    "screen_size": "6.51",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 249
+  },
+  {
+    "brand": "Realme",
+    "model": "C11",
+    "storage": "32GB",
+    "ram": "2GB",
+    "screen_size": "6.5",
+    "camera": "13MP + 2MP",
+    "battery": 5000,
+    "price": 99
+  },
+  {
+    "brand": "Nokia",
+    "model": "2.4",
+    "storage": "32GB",
+    "ram": "2GB",
+    "screen_size": "6.5",
+    "camera": "8MP + 2MP",
+    "battery": 4500,
+    "price": 129
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.53",
+    "camera": "13MP + 8MP + 5MP + 2MP",
+    "battery": 5020,
+    "price": 149
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A11",
+    "storage": "32GB",
+    "ram": "2GB",
+    "screen_size": "6.4",
+    "camera": "13MP + 5MP + 2MP",
+    "battery": 4000,
+    "price": 129
+  },
+  {
+    "brand": "Oppo",
+    "model": "A12",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.22",
+    "camera": "13MP + 2MP",
+    "battery": 4230,
+    "price": 139
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y20G",
+    "storage": "128GB",
+    "ram": "6GB",
+    "screen_size": "6.51",
+    "camera": "13MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 229
+  },
+  {
+    "brand": "Realme",
+    "model": "C15",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "13MP + 8MP + 2MP + 2MP",
+    "battery": 6000,
+    "price": 179
+  },
+  {
+    "brand": "Nokia",
+    "model": "3.1 Plus",
+    "storage": "32GB",
+    "ram": "3GB",
+    "screen_size": "6",
+    "camera": "13MP + 5MP",
+    "battery": 3500,
+    "price": 139
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 7",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.3",
+    "camera": "48MP + 5MP",
+    "battery": 4000,
+    "price": 159
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A12",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "48MP + 5MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 179
+  },
+  {
+    "brand": "Oppo",
+    "model": "A31",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.5",
+    "camera": "12MP + 2MP + 2MP",
+    "battery": 4230,
+    "price": 199
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y15",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.35",
+    "camera": "13MP + 8MP + 2MP",
+    "battery": 5000,
+    "price": 189
+  },
+  {
+    "brand": "Realme",
+    "model": "Narzo 10A",
+    "storage": "32GB",
+    "ram": "3GB",
+    "screen_size": "6.5",
+    "camera": "12MP + 2MP + 2MP",
+    "battery": 5000,
+    "price": 129
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9T",
+    "storage": "128GB",
+    "ram": "4GB",
+    "screen_size": "6.53",
+    "camera": "48MP + 8MP + 2MP + 2MP",
+    "battery": 6000,
+    "price": 229
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A30s",
+    "storage": "64GB",
+    "ram": "4GB",
+    "screen_size": "6.4",
+    "camera": "25MP + 8MP + 5MP",
+    "battery": 4000,
+    "price": 279
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Note 20 Ultra",
+    "storage": "256",
+    "ram": "12",
+    "screen_size": "6.9",
+    "camera": "108+12+12",
+    "battery": 4500,
+    "price": 1299
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone SE (2020)",
+    "storage": "64",
+    "ram": "3",
+    "screen_size": "4.7",
+    "camera": "12",
+    "battery": 1821,
+    "price": 399
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Poco X3 Pro",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.67",
+    "camera": "48+8+2+2",
+    "battery": 5160,
+    "price": 249
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 5",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6",
+    "camera": "12.2+16",
+    "battery": 4080,
+    "price": 699
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate 40 Pro",
+    "storage": "256",
+    "ram": "8",
+    "screen_size": "6.76",
+    "camera": "50+20+12+3D",
+    "battery": 4400,
+    "price": 1199
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Nord N10 5G",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.49",
+    "camera": "64+8+2+2",
+    "battery": 4300,
+    "price": 299
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno 5 Pro 5G",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.55",
+    "camera": "64+8+2+2",
+    "battery": 4350,
+    "price": 449
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A71",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.7",
+    "camera": "64+12+5+5",
+    "battery": 4500,
+    "price": 599
+  },
+  {
+    "brand": "Nokia",
+    "model": "8.3 5G",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.81",
+    "camera": "64+12+2+2",
+    "battery": 4500,
+    "price": 499
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 11 Pro Max",
+    "storage": "512",
+    "ram": "4",
+    "screen_size": "6.5",
+    "camera": "12+12+12",
+    "battery": 3969,
+    "price": 1099
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 11",
+    "storage": "256",
+    "ram": "8",
+    "screen_size": "6.81",
+    "camera": "108+13+5",
+    "battery": 4600,
+    "price": 749
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G Power (2021)",
+    "storage": "64",
+    "ram": "4",
+    "screen_size": "6.6",
+    "camera": "48+2+2",
+    "battery": 5000,
+    "price": 199
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 4a 5G",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.2",
+    "camera": "12.2+16",
+    "battery": 3885,
+    "price": 499
+  },
+  {
+    "brand": "Huawei",
+    "model": "Nova 8 Pro 5G",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.72",
+    "camera": "64+8+2+2",
+    "battery": 4000,
+    "price": 699
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A52",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.5",
+    "camera": "64+12+5+5",
+    "battery": 4500,
+    "price": 449
+  },
+  {
+    "brand": "OnePlus",
+    "model": "8T",
+    "storage": "256",
+    "ram": "12",
+    "screen_size": "6.55",
+    "camera": "48+16+5+2",
+    "battery": 4500,
+    "price": 749
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9",
+    "storage": "64",
+    "ram": "4",
+    "screen_size": "6.53",
+    "camera": "13+8+5+2",
+    "battery": 5020,
+    "price": 149
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.1",
+    "camera": "12+12+12",
+    "battery": 2815,
+    "price": 799
+  },
+  {
+    "brand": "Oppo",
+    "model": "A15s",
+    "storage": "64",
+    "ram": "4",
+    "screen_size": "6.52",
+    "camera": "13+2+2",
+    "battery": 4230,
+    "price": 159
+  },
+  {
+    "brand": "Nokia",
+    "model": "G50 5G",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.82",
+    "camera": "48+5+2",
+    "battery": 4850,
+    "price": 299
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone XR",
+    "storage": "64",
+    "ram": "3",
+    "screen_size": "6.1",
+    "camera": "12+7",
+    "battery": 2942,
+    "price": 599
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S21 Ultra 5G",
+    "storage": "256",
+    "ram": "12",
+    "screen_size": "6.8",
+    "camera": "108+10+10+12",
+    "battery": 5000,
+    "price": 1199
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 10 Pro",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.67",
+    "camera": "108+8+5+2",
+    "battery": 5020,
+    "price": 279
+  },
+  {
+    "brand": "Oppo",
+    "model": "Find X3 Neo 5G",
+    "storage": "256",
+    "ram": "12",
+    "screen_size": "6.55",
+    "camera": "50+16+13+2",
+    "battery": 4500,
+    "price": 899
+  },
+  {
+    "brand": "Huawei",
+    "model": "P40 Pro",
+    "storage": "256",
+    "ram": "8",
+    "screen_size": "6.58",
+    "camera": "50+12+40+3D",
+    "battery": 4200,
+    "price": 1099
+  },
+  {
+    "brand": "OnePlus",
+    "model": "9 Pro",
+    "storage": "256",
+    "ram": "12",
+    "screen_size": "6.7",
+    "camera": "48+50+8+2",
+    "battery": 4500,
+    "price": 969
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G Stylus (2021)",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.4",
+    "camera": "48+8+2",
+    "battery": 4000,
+    "price": 299
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 4",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "5.7",
+    "camera": "12.2+16",
+    "battery": 2800,
+    "price": 799
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A12",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.5",
+    "camera": "48+5+2+2",
+    "battery": 5000,
+    "price": 179
+  },
+  {
+    "brand": "Nokia",
+    "model": "5.4",
+    "storage": "64",
+    "ram": "4",
+    "screen_size": "6.39",
+    "camera": "48+5+2+2",
+    "battery": 4000,
+    "price": 179
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 12",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.1",
+    "camera": "12+12",
+    "battery": 2815,
+    "price": 799
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 10",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.5",
+    "camera": "50+8+2+2",
+    "battery": 5000,
+    "price": 229
+  },
+  {
+    "brand": "Oppo",
+    "model": "A94 5G",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.43",
+    "camera": "48+8+2+2",
+    "battery": 4310,
+    "price": 399
+  },
+  {
+    "brand": "Huawei",
+    "model": "Nova 9 Pro 5G",
+    "storage": "256",
+    "ram": "8",
+    "screen_size": "6.72",
+    "camera": "50+8+16+2",
+    "battery": 4500,
+    "price": 699
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S10 Lite",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.7",
+    "camera": "48+12+5",
+    "battery": 4500,
+    "price": 649
+  },
+  {
+    "brand": "OnePlus",
+    "model": "8 Pro",
+    "storage": "256",
+    "ram": "12",
+    "screen_size": "6.78",
+    "camera": "48+48+8+5",
+    "battery": 4510,
+    "price": 999
+  },
+  {
+    "brand": "Nokia",
+    "model": "7.2",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.3",
+    "camera": "48+8+5",
+    "battery": 3500,
+    "price": 349
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 10T Pro",
+    "storage": "256",
+    "ram": "8",
+    "screen_size": "6.67",
+    "camera": "108+13+5",
+    "battery": 5000,
+    "price": 599
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 11",
+    "storage": "64",
+    "ram": "4",
+    "screen_size": "6.1",
+    "camera": "12+12+12",
+    "battery": 3110,
+    "price": 699
+  },
+  {
+    "brand": "Oppo",
+    "model": "F19 Pro+ 5G",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.43",
+    "camera": "64+8+2+2",
+    "battery": 4310,
+    "price": 419
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G Power (2021)",
+    "storage": "64",
+    "ram": "3",
+    "screen_size": "6.6",
+    "camera": "48+2+2",
+    "battery": 5000,
+    "price": 199
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A71",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.7",
+    "camera": "64+12+5+5",
+    "battery": 4500,
+    "price": 399
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate 30 Pro 5G",
+    "storage": "256",
+    "ram": "8",
+    "screen_size": "6.53",
+    "camera": "40+40+8+3D",
+    "battery": 4500,
+    "price": 1099
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Poco X3 Pro",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.67",
+    "camera": "48+8+2+2",
+    "battery": 5160,
+    "price": 249
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 5",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6",
+    "camera": "12.2+16",
+    "battery": 4080,
+    "price": 699
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone SE (2020)",
+    "storage": "64",
+    "ram": "3",
+    "screen_size": "4.7",
+    "camera": "12",
+    "battery": 1821,
+    "price": 399
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M51",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.7",
+    "camera": "64+12+5+5",
+    "battery": 7000,
+    "price": 449
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno4 Pro 5G",
+    "storage": "256",
+    "ram": "12",
+    "screen_size": "6.55",
+    "camera": "48+12+13",
+    "battery": 4000,
+    "price": 799
+  },
+  {
+    "brand": "Nokia",
+    "model": "3.4",
+    "storage": "64",
+    "ram": "4",
+    "screen_size": "6.39",
+    "camera": "13+5+2",
+    "battery": 4000,
+    "price": 179
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G9 Plus",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.81",
+    "camera": "64+8+2+2",
+    "battery": 5000,
+    "price": 279
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone XS Max",
+    "storage": "256",
+    "ram": "4",
+    "screen_size": "6.5",
+    "camera": "12+12",
+    "battery": 3174,
+    "price": 1099
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A32 5G",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.5",
+    "camera": "48+8+5+2",
+    "battery": 5000,
+    "price": 279
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 9S",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.67",
+    "camera": "48+8+5+2",
+    "battery": 5020,
+    "price": 249
+  },
+  {
+    "brand": "Oppo",
+    "model": "A92",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.5",
+    "camera": "48+8+2+2",
+    "battery": 5000,
+    "price": 399
+  },
+  {
+    "brand": "Huawei",
+    "model": "P30 Pro",
+    "storage": "256",
+    "ram": "8",
+    "screen_size": "6.47",
+    "camera": "40+20+8+ToF",
+    "battery": 4200,
+    "price": 999
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S20 FE 5G",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.5",
+    "camera": "12+12+8",
+    "battery": 4500,
+    "price": 699
+  },
+  {
+    "brand": "OnePlus",
+    "model": "7 Pro",
+    "storage": "256",
+    "ram": "8",
+    "screen_size": "6.67",
+    "camera": "48+16+8",
+    "battery": 4000,
+    "price": 699
+  },
+  {
+    "brand": "Nokia",
+    "model": "6.2",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.3",
+    "camera": "16+8+5",
+    "battery": 3500,
+    "price": 249
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 10T Lite",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.67",
+    "camera": "64+8+2+2",
+    "battery": 4820,
+    "price": 279
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 8 Plus",
+    "storage": "64",
+    "ram": "3",
+    "screen_size": "5.5",
+    "camera": "12+12",
+    "battery": 2691,
+    "price": 699
+  },
+  {
+    "brand": "Oppo",
+    "model": "A53",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.5",
+    "camera": "13+2+2",
+    "battery": 5000,
+    "price": 249
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G8 Power",
+    "storage": "64",
+    "ram": "4",
+    "screen_size": "6.4",
+    "camera": "16+8+8+2",
+    "battery": 5000,
+    "price": 229
+  },
+  {
+    "brand": "Huawei",
+    "model": "Nova 7i",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.4",
+    "camera": "48+8+2+2",
+    "battery": 4200,
+    "price": 329
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S21+ 5G",
+    "storage": "256",
+    "ram": "8",
+    "screen_size": "6.7",
+    "camera": "12+64+12",
+    "battery": 4800,
+    "price": 999
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 11 Lite",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.55",
+    "camera": "64+8+5",
+    "battery": 4250,
+    "price": 399
+  },
+  {
+    "brand": "Nokia",
+    "model": "8.3 5G",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.81",
+    "camera": "64+12+2+2",
+    "battery": 4500,
+    "price": 499
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Nord",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.44",
+    "camera": "48+8+5+2",
+    "battery": 4115,
+    "price": 449
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone XR",
+    "storage": "64",
+    "ram": "3",
+    "screen_size": "6.1",
+    "camera": "12",
+    "battery": 2942,
+    "price": 499
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A12",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.5",
+    "camera": "48+5+2+2",
+    "battery": 5000,
+    "price": 179
+  },
+  {
+    "brand": "Oppo",
+    "model": "A94 5G",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.43",
+    "camera": "48+8+2+2",
+    "battery": 4310,
+    "price": 399
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9T",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.53",
+    "camera": "48+8+2+2",
+    "battery": 6000,
+    "price": 199
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G10",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.5",
+    "camera": "48+8+2+2",
+    "battery": 5000,
+    "price": 199
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A52 5G",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.5",
+    "camera": "64+12+5+5",
+    "battery": 4500,
+    "price": 449
+  },
+  {
+    "brand": "Huawei",
+    "model": "P40 Pro+",
+    "storage": "512",
+    "ram": "8",
+    "screen_size": "6.58",
+    "camera": "50+40+12+3D",
+    "battery": 4200,
+    "price": 1399
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 11 Pro Max",
+    "storage": "64",
+    "ram": "4",
+    "screen_size": "6.5",
+    "camera": "12+12+12",
+    "battery": 3969,
+    "price": 1099
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Note20 5G",
+    "storage": "256",
+    "ram": "8",
+    "screen_size": "6.7",
+    "camera": "12+64+12",
+    "battery": 4300,
+    "price": 999
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Poco M3",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.53",
+    "camera": "48+2+2",
+    "battery": 6000,
+    "price": 179
+  },
+  {
+    "brand": "Nokia",
+    "model": "5.4",
+    "storage": "64",
+    "ram": "4",
+    "screen_size": "6.39",
+    "camera": "48+5+2+2",
+    "battery": 4000,
+    "price": 179
+  },
+  {
+    "brand": "Oppo",
+    "model": "Find X3 Neo 5G",
+    "storage": "256",
+    "ram": "12",
+    "screen_size": "6.55",
+    "camera": "50+16+13+2",
+    "battery": 4500,
+    "price": 799
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S20 Ultra 5G",
+    "storage": "512",
+    "ram": "16",
+    "screen_size": "6.9",
+    "camera": "108+48+12+3D",
+    "battery": 5000,
+    "price": 1399
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 9S",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.67",
+    "camera": "48+8+5+2",
+    "battery": 5020,
+    "price": 229
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 12 mini",
+    "storage": "256",
+    "ram": "4",
+    "screen_size": "5.4",
+    "camera": "12+12",
+    "battery": 2227,
+    "price": 899
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A21s",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.5",
+    "camera": "48+8+2+2",
+    "battery": 5000,
+    "price": 199
+  },
+  {
+    "brand": "OnePlus",
+    "model": "9",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.55",
+    "camera": "48+50+2",
+    "battery": 4500,
+    "price": 729
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G9 Power",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.8",
+    "camera": "64+2+2",
+    "battery": 6000,
+    "price": 229
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold2 5G",
+    "storage": "256",
+    "ram": "12",
+    "screen_size": "7.6 (unfolded)",
+    "camera": "12+12+12",
+    "battery": 4500,
+    "price": 1999
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 10T Pro 5G",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.67",
+    "camera": "108+13+5",
+    "battery": 5000,
+    "price": 599
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno4 Pro 5G",
+    "storage": "256",
+    "ram": "12",
+    "screen_size": "6.5",
+    "camera": "48+13+12+2",
+    "battery": 4000,
+    "price": 799
+  },
+  {
+    "brand": "Huawei",
+    "model": "P40 Pro",
+    "storage": "256",
+    "ram": "8",
+    "screen_size": "6.58",
+    "camera": "50+12+40+3D",
+    "battery": 4200,
+    "price": 999
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S20 FE 5G",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.5",
+    "camera": "12+12+8",
+    "battery": 4500,
+    "price": 699
+  },
+  {
+    "brand": "Nokia",
+    "model": "2.4",
+    "storage": "32",
+    "ram": "2",
+    "screen_size": "6.5",
+    "camera": "13+2",
+    "battery": 4500,
+    "price": 139
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone SE (2020)",
+    "storage": "128",
+    "ram": "3",
+    "screen_size": "4.7",
+    "camera": "12",
+    "battery": 1821,
+    "price": 449
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9C",
+    "storage": "64",
+    "ram": "3",
+    "screen_size": "6.53",
+    "camera": "13+2+2",
+    "battery": 5000,
+    "price": 119
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A32 5G",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.5",
+    "camera": "48+8+5+2",
+    "battery": 5000,
+    "price": 279
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Nord N10 5G",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.49",
+    "camera": "64+8+2+2",
+    "battery": 4300,
+    "price": 299
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y7p",
+    "storage": "64",
+    "ram": "4",
+    "screen_size": "6.39",
+    "camera": "48+8+2",
+    "battery": 4000,
+    "price": 199
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 12 Pro",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.1",
+    "camera": "12+12+12",
+    "battery": 2815,
+    "price": 999
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A42 5G",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.6",
+    "camera": "48+8+5+5",
+    "battery": 5000,
+    "price": 329
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 10 Pro",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.67",
+    "camera": "108+8+5+2",
+    "battery": 5020,
+    "price": 329
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S21",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.2",
+    "camera": "64+12+12",
+    "battery": 4000,
+    "price": 799
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 11",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.1",
+    "camera": "12+12",
+    "battery": 3110,
+    "price": 749
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9T",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.53",
+    "camera": "48+8+2+2",
+    "battery": 6000,
+    "price": 199
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 5",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6",
+    "camera": "12.2+16",
+    "battery": 4080,
+    "price": 699
+  },
+  {
+    "brand": "Huawei",
+    "model": "Nova 7i",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.4",
+    "camera": "48+8+2+2",
+    "battery": 4200,
+    "price": 349
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S20 Ultra 5G",
+    "storage": "128",
+    "ram": "12",
+    "screen_size": "6.9",
+    "camera": "108+48+12+0.3",
+    "battery": 5000,
+    "price": 1199
+  },
+  {
+    "brand": "OnePlus",
+    "model": "8T",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.55",
+    "camera": "48+16+5+2",
+    "battery": 4500,
+    "price": 749
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G8 Power",
+    "storage": "64",
+    "ram": "4",
+    "screen_size": "6.4",
+    "camera": "16+8+8+2",
+    "battery": 5000,
+    "price": 199
+  },
+  {
+    "brand": "Realme",
+    "model": "7",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.5",
+    "camera": "64+8+2+2",
+    "battery": 5000,
+    "price": 299
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone XR",
+    "storage": "128",
+    "ram": "3",
+    "screen_size": "6.1",
+    "camera": "12+12",
+    "battery": 2942,
+    "price": 599
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Poco M3",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.53",
+    "camera": "48+2+2",
+    "battery": 6000,
+    "price": 149
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A52 5G",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.5",
+    "camera": "64+12+5+5",
+    "battery": 4500,
+    "price": 449
+  },
+  {
+    "brand": "Oppo",
+    "model": "A93",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.43",
+    "camera": "48+8+2+2",
+    "battery": 4000,
+    "price": 319
+  },
+  {
+    "brand": "Motorola",
+    "model": "Moto G Pro",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.4",
+    "camera": "48+16+2",
+    "battery": 4000,
+    "price": 329
+  },
+  {
+    "brand": "Huawei",
+    "model": "P30 Lite",
+    "storage": "128",
+    "ram": "4",
+    "screen_size": "6.15",
+    "camera": "48+8+2",
+    "battery": 3340,
+    "price": 329
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Note20 5G",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.7",
+    "camera": "12+64+12",
+    "battery": 4300,
+    "price": 1049
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 10 Lite 5G",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.57",
+    "camera": "48+8+2+2",
+    "battery": 4160,
+    "price": 349
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 12 Pro Max",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.7",
+    "camera": "12+12+12",
+    "battery": 3687,
+    "price": 1099
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno3",
+    "storage": "128",
+    "ram": "8",
+    "screen_size": "6.4",
+    "camera": "48+13+8+2",
+    "battery": 4025,
+    "price": 429
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S10 Lite",
+    "storage": "128",
+    "ram": "6",
+    "screen_size": "6.7",
+    "camera": "48+12+5",
+    "battery": 4500,
+    "price": 649
+  }
+]
