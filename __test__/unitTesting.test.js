@@ -1,16 +1,43 @@
 const request = require("supertest");
 const app = require("../app");
-const { User } = require("../models/index");
+const { User,Product } = require("../models/index");
 const { signToken } = require("../helpers/jwt");
 
 beforeAll(async () => {
   try {
-    const user = await User.create({
+    const user = await User.bulkCreate([{
       username: "adam1",
       password: "adam1",
       email: "adam1@mail.com",
       role: "user",
-    });
+    },
+    {
+      username: "admin_user",
+      password: "admin_password",
+      email: "admin@example.com",
+      role: "admin"
+    }]);
+
+    const product = await Product.bulkCreate([{
+      "brand": "Xiaomi",
+      "model": "Redmi Note 10 Pro",
+      "storage": "128 GB",
+      "ram": "6 GB",
+      "screen_size": "6.67",
+      "camera": "64 + 8 + 5 + 2",
+      "battery": 5020,
+      "price": 279
+    },
+    {
+      "brand": "Google",
+      "model": "Pixel 6",
+      "storage": "128 GB",
+      "ram": "8 GB",
+      "screen_size": "6.4",
+      "camera": "50 + 12.2",
+      "battery": 4614,
+      "price": 799
+    }])
 
     const token = signToken(user.id);
   } catch (error) {
@@ -68,7 +95,7 @@ describe("POST /register", () => {
 
     expect(response.status).toBe(400);
     expect(response.body).toBeInstanceOf(Object);
-    expect(response.body).toHaveProperty("message", "Email can't be empty");
+    expect(response.body).toHaveProperty("message", "Email Fields can't be empty");
   });
 
   test("Throw Error Password Null", async () => {
@@ -81,7 +108,7 @@ describe("POST /register", () => {
 
     expect(response.status).toBe(400);
     expect(response.body).toBeInstanceOf(Object);
-    expect(response.body).toHaveProperty("message", "Password can't be empty");
+    expect(response.body).toHaveProperty("message", "Password Fields can't be empty");
   });
 
   test("Throw Error Username Null", async () => {
@@ -95,7 +122,7 @@ describe("POST /register", () => {
 
     expect(response.status).toBe(400);
     expect(response.body).toBeInstanceOf(Object);
-    expect(response.body).toHaveProperty("message", "Username can't be empty");
+    expect(response.body).toHaveProperty("message", "Username Fields can't be empty");
   });
 
   test("Throw Error Username Email Null", async () => {
@@ -109,7 +136,7 @@ describe("POST /register", () => {
     expect(response.body).toBeInstanceOf(Object);
     expect(response.body).toHaveProperty(
       "message",
-      "Username Email can't be empty"
+      "Username Email Fields can't be empty"
     );
   });
 
@@ -124,7 +151,7 @@ describe("POST /register", () => {
     expect(response.body).toBeInstanceOf(Object);
     expect(response.body).toHaveProperty(
       "message",
-      "Email Password can't be empty"
+      "Email Password Fields can't be empty"
     );
   });
 
@@ -139,7 +166,21 @@ describe("POST /register", () => {
     expect(response.body).toBeInstanceOf(Object);
     expect(response.body).toHaveProperty(
       "message",
-      "Username Password can't be empty"
+      "Username Password Fields can't be empty"
+    );
+  });
+
+  test("Throw Error Fields Null", async () => {
+    const dummy = {
+    };
+
+    const response = await request(app).post("/register").send(dummy);
+
+    expect(response.status).toBe(400);
+    expect(response.body).toBeInstanceOf(Object);
+    expect(response.body).toHaveProperty(
+      "message",
+      "Fields can't be empty"
     );
   });
 
@@ -169,7 +210,7 @@ describe("POST /register", () => {
 
       expect(response.status).toBe(400);
       expect(response.body).toBeInstanceOf(Object);
-      expect(response.body).toHaveProperty("message", "Email can't be empty");
+      expect(response.body).toHaveProperty("message", "Email Fields can't be empty");
     });
 
     test("Throw Error Password Null", async () => {
@@ -183,7 +224,7 @@ describe("POST /register", () => {
       expect(response.body).toBeInstanceOf(Object);
       expect(response.body).toHaveProperty(
         "message",
-        "Password can't be empty"
+        "Password Fields can't be empty"
       );
     });
 
@@ -231,16 +272,43 @@ describe("POST /register", () => {
       expect(response.body).toHaveProperty("message", "Invalid email format");
     });
   });
+});
 
-  afterAll(async () => {
-    try {
-      await User.destroy({
-        truncate: true,
-        cascade: true,
-        restartIdentity: true,
-      });
-    } catch (error) {
-      console.log(error);
+describe("POST /product",()=>{
+  test('Create Product Success',async ()=>{
+    const dummy = {
+      brand: "Oppo",
+      model: "Reno3",
+      storage: "128",
+      ram: "8",
+      screen_size: "6.4",
+      camera: "48+13+8+2",
+      battery: 4025,
+      price: 429
     }
-  });
+    const response =  await request(app)
+    .post('/products')
+    .send(dummy);
+    expect(response.status).toBe(201)
+    expect(response.body).toBeInstanceOf(Object)
+    expect(response.body).toHaveProperty("message","Product Created")
+  })
+  
+})
+
+afterAll(async () => {
+  try {
+    await User.destroy({
+      truncate: true,
+      cascade: true,
+      restartIdentity: true,
+    });
+    await Product.destroy({
+      truncate: true,
+      cascade: true,
+      restartIdentity: true,
+    });
+  } catch (error) {
+    console.log(error);
+  }
 });

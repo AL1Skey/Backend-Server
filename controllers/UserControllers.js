@@ -19,7 +19,7 @@ class UserControllers {
           .send({
             message: `${req.body.username ? "" : "Username "}${
               req.body.email ? "" : "Email "
-            }${req.body.password ? "" : "Password "}can't be empty`,
+            }${req.body.password ? "" : "Password "} Fields can't be empty`,
           });
       }
 

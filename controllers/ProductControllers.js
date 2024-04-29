@@ -38,8 +38,15 @@ class ProductControllers{
     // Create Controllers Section
     static async createProduct(req,res,next){
         try {
+            if(!req.body) res.status(400).send({message:"Insert at least One Field"});
+
+            if(!req.body.brand || !req.body.price || !req.body.model) res.status(400).send({message:`${req.body.brand?"" : "Brand "}${req.body.price?"" : "Price "}${req.body.model?"" : "Model "} is required`});
+
+           
+
             const data = {...req.body,createdAt:new Date(),updatedAt:new Date()}
             const product = await Product.create(data);
+            res.status(201).send({"message":"Product Created"})
         } catch (error) {
            next(error);
         }
