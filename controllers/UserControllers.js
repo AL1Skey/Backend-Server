@@ -12,14 +12,18 @@ class UserControllers {
    */
   static async register(req, res, next) {
     try {
+      
       // Check if request body contains required fields
       if (!req.body.username || !req.body.email || !req.body.password) {
+        if(!req.body.username && !req.body.email && !req.body.password){
+          res.status(400).send({ message: "Fields can't be empty" });
+        }
         res
           .status(400)
           .send({
             message: `${req.body.username ? "" : "Username "}${
               req.body.email ? "" : "Email "
-            }${req.body.password ? "" : "Password "} Fields can't be empty`,
+            }${req.body.password ? "" : "Password "}Fields can't be empty`,
           });
       }
 
@@ -72,7 +76,7 @@ class UserControllers {
     try {
       // Check if request body contains required fields
       if (!req.body.email || !req.body.password) {
-        res.status(400).send({ message: `${req.body.email?"":"Email "}${req.body.password?"":"Password "}can't be empty` });
+        res.status(400).send({ message: `${req.body.email?"":"Email "}${req.body.password?"":"Password "}Fields can't be empty` });
       }
 
       // Check if request email is valid email format
