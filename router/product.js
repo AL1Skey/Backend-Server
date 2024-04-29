@@ -10,6 +10,8 @@ productRouter.get('/pubs/products/search',ProductControllers.getProductsByQuery)
 productRouter.get('/pubs/products/:id',ProductControllers.getProductsDetails)
 productRouter.put('/pubs/products/:id',ProductControllers.updateProduct)
 productRouter.delete('/pubs/products/:id',ProductControllers.deleteProduct)
+
+// Private Product Endpoints
 productRouter.use(UserAuth.JWTAuth)
 // Restful Section
 productRouter.post('/products',ProductControllers.createProduct)

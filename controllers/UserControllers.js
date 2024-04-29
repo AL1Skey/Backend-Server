@@ -130,25 +130,6 @@ class UserControllers {
    * @param {Request} req - Request object
    * @param {Response} res - Response object
    */
-  static async logout(req, res, next) {
-    try {
-      // Check if user is logged in
-      if (req.user) {
-        // Delete user from request object if logged in
-        delete req.user;
-      } else {
-        // Send success message if user not logged in
-        res.send({ message: "User Already Logged Out" });
-      }
-
-      // Send success message
-      res.send({ message: "Logout Success" });
-    } catch (error) {
-      // Log error and send error response
-      console.log(error);
-      next(error);
-    }
-  }
 }
 
 module.exports = UserControllers;

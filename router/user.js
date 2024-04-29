@@ -7,12 +7,13 @@ const UserAuth = require('../middleware/UserAuth')
 // User Endpoints
 userRouter.post('/register',UserControllers.register)
 userRouter.post('/login',UserControllers.login)
-userRouter.post('/logout',UserAuth.JWTAuth,UserControllers.logout)
 
 // Admin Endpoints
-userRouter.post('/users',UserAuth.JWTAuth,UserAuth.AdminAuth,AdminControllers.createUsers)
-userRouter.get('/users',UserAuth.JWTAuth,UserAuth.AdminAuth,AdminControllers.getUsers)
-userRouter.put('/users/:id',UserAuth.JWTAuth,UserAuth.AdminAuth,AdminControllers.updateUser)
-userRouter.delete('/users/:id',UserAuth.JWTAuth,UserAuth.AdminAuth,AdminControllers.deleteUser)
+userRouter.use(UserAuth.JWTAuth)
+userRouter.use(UserAuth.AdminAuth)
+userRouter.post('/users',AdminControllers.createUsers)
+userRouter.get('/users',AdminControllers.getUsers)
+userRouter.put('/users/:id',AdminControllers.updateUser)
+userRouter.delete('/users/:id',AdminControllers.deleteUser)
 
 module.exports = userRouter;
